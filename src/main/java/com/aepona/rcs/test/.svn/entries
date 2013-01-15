@@ -1,49 +1,0 @@
-10
-
-dir
-79512
-http://wandisco.aepona.com/svn/tws/trunk/deliverables/sourceCode/Demos/RCS/com.aepona.rcs.test/com.aepona.rcs.test/com/aepona/rcs/test
-http://wandisco.aepona.com/svn/tws
-
-
-
-2013-01-15T15:11:22.496397Z
-79512
-mc0522
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-282c95e1-3820-0410-abb1-ed7d64c0c7cb
-
-chat
-dir
-
-notificationChannel
-dir
-
-addressBook
-dir
-
-fileTransfer
-dir
-
-common
-dir
-
-capabilities
-dir
-
-general
-dir
-
