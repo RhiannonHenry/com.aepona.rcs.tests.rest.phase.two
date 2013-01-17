@@ -21,7 +21,7 @@ import com.jayway.restassured.path.json.JsonPath;
 import com.jayway.restassured.response.Response;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/application-context.xml"})
+@ContextConfiguration(locations = {"/spring/application-context.xml"})
 public class Create {
 
     private final Logger LOGGER = LoggerFactory.getLogger(Create.class);
@@ -253,7 +253,7 @@ public class Create {
 
     private String replace(String notificationChannelURL, String apiVersion, String userID) {
         String newURL = notificationChannelURL.replace("{apiVersion}", apiVersion).replace("{userID}", userID);
-        LOGGER.info("Register URL = " + newURL);
+        LOGGER.info("Register URL = "+baseURI + newURL);
         return newURL;
     }
 

@@ -20,7 +20,7 @@ import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/application-context.xml"})
+@ContextConfiguration(locations = { "/spring/application-context.xml" })
 public class RetrieveIndividual {
 
     private final Logger LOGGER = LoggerFactory.getLogger(RetrieveIndividual.class);

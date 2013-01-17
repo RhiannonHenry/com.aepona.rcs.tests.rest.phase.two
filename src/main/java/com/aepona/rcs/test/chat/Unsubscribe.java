@@ -19,7 +19,7 @@ import com.jayway.restassured.path.json.JsonPath;
 import com.jayway.restassured.response.Response;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/application-context.xml"})
+@ContextConfiguration(locations = { "/spring/application-context.xml" })
 public class Unsubscribe {
 
     private final Logger LOGGER = LoggerFactory.getLogger(Unsubscribe.class);
